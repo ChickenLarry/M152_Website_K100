@@ -1,0 +1,60 @@
+.form {
+   width: 100%;
+   padding: 20px;
+   background: linear-gradient(to bottom, black, rgb(22, 22, 22),rgb(27, 27, 27),rgb(32, 32, 32), rgb(41, 41, 41),rgb(51, 51, 51), rgb(56, 56, 56), rgb(71, 71, 71), rgb(88, 88, 88), rgb(107, 107, 107), Gray, rgb(167, 167, 167), rgb(214, 214, 214),rgb(233, 233, 233));
+
+ }
+ 
+ .form-row {
+   display: flex;
+   align-items: flex-start;
+ }
+ 
+ .label {
+   display: block;
+   Margin-left: 15%;
+   padding: 15px;
+   font-weight: bold;
+   width: 30%;
+   text-align: left;
+   color: white
+ }
+ 
+ .input {
+   width: 70%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ .textarea {
+   width: 70%;
+   height: 100px;
+   padding: 12px 20px;
+   box-sizing: border-box;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   resize: none;
+ }
+ 
+ .button {
+   width: 40%;
+   background-color: #ccc;
+   color: #333;
+   padding: 14px 50px;
+   margin: 60px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ .button:hover {
+   background-color: white;
+   color: #333;
+ }
+
+ .description{
+   color: white;
+   padding-top: 20px;
+ }

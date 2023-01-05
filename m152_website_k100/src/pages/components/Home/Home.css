@@ -1,0 +1,107 @@
+.TextRightBuy {
+    position: relative;
+    margin-left: 0%;
+    width: 400px;
+    height: 500px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(to bottom, rgb(41, 41, 41),rgb(51, 51, 51), rgb(56, 56, 56), rgb(71, 71, 71), rgb(88, 88, 88), rgb(107, 107, 107), Gray, rgb(167, 167, 167), rgb(214, 214, 214),rgb(233, 233, 233));
+    z-index: 2;
+    top: 90%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (min-width: 1250px) {
+    .TextRightBuy {
+        position: relative;
+        top: 90%;
+        left: 2%;
+        margin-right: 3%;
+        text-align: left;
+        font-size: 20px;
+        background: linear-gradient(to bottom, rgb(41, 41, 41),rgb(51, 51, 51), rgb(56, 56, 56), rgb(71, 71, 71), rgb(88, 88, 88), rgb(107, 107, 107), Gray, rgb(167, 167, 167));
+        z-index: 2;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        max-height: 387px;
+        width: 680px;
+    }
+}
+
+.ImgLeftBuy {
+    position: relative;
+    max-width: 700px;
+    top: 90%;
+    float: right;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (min-width: 950px) {
+    .ImgLeftBuy {
+        position: relative;
+        max-width: 700px;
+        top: 90%;
+        float: right;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+}
+
+@media (min-width: 1250px) {
+    .ImgLeftBuy {
+        position: relative;
+        max-width: 700px;
+        top: 90%;
+        float: right;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+}
+
+@media (min-width: 1450px) {
+     .ImgLeftBuy {
+        position: relative;
+        max-width: 700px;
+        top: 90%;
+        left: 5%;
+        float: right;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+}
+
+.K100 {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 2rem;
+    width: 40%;
+    font-size: 220%;
+    color: white;
+    margin: auto;
+    opacity: 0.6;
+    
+}
+
+.Text {
+    font-family: 'Jura', sans-serif;
+    text-align: left;
+    padding-left: 100px;
+    max-width: 600px;
+    opacity: 0.6;
+}
+
+.Button {
+    font-family: 'Jura', sans-serif;
+    width: 40%;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 30px;
+    margin: 40px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30%;
+  }
+  
+  .Button:hover {
+    font-family: 'Jura', sans-serif;
+    background-color: white;
+    color: #333;
+  }
