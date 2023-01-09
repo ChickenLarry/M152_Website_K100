@@ -21,8 +21,6 @@ class Navigation extends Component {
                 <div className="Blog">
                     <header>
                         <div className="BackgroundPic"/>
-                        <br/>
-
                         <nav>
                             <ul>
                                 <li><NavLink end to="/"
@@ -40,20 +38,18 @@ class Navigation extends Component {
                         </nav>
                     </header>
                 </div>
-                    <Routes>
-                        <Route path="/" element={<Home/>}/>
-                        <Route path="/funktion" element={<Funktion/>}/>
-                        <Route path="/video" element={<Video/>}/>
-                        <Route path="/support" element={<Support/>}/>
-                    </Routes>
-
-
-                    <Outlet/>
-                    <Row>
-                        <div className="Footer">
-                            <p>Example Text</p>
-                        </div>
-                    </Row>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/funktion" element={<Funktion/>}/>
+                    <Route path="/video" element={<Video/>}/>
+                    <Route path="/support" element={<Support/>}/>
+                </Routes>
+                <Outlet/>
+                <Row>
+                    <div className="Footer">
+                        <p>Example Text</p>
+                    </div>
+                </Row>
             </div>
         );
     }

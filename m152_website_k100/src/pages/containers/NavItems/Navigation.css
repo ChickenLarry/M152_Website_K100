@@ -2,7 +2,7 @@
     height: 150px;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background: linear-gradient(to bottom, rgb(36, 36, 36), rgb(29, 29, 29), rgb(22, 22, 22), rgb(17, 17, 17),rgb(8, 8, 8), rgb(5, 5, 5), black);
 }
 
 .Blog li {
@@ -14,16 +14,18 @@
 .Blog a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1cm;
+    opacity: 0.5;
+    font-size: 0.9cm;
 }
 
 .Blog a:hover,
 .Blog a:active,
 .Blog a.active{
-    color: #464646;
+    color: #ffffff;
     border-bottom: 1px solid rgb(132, 132, 132);
     padding-bottom: 6px;
     width: 40%;
+    opacity: 1;
 }
 
 .button{
