@@ -7,7 +7,7 @@ import '../../../styles/style.css';
 import useDocumentTitle from "../../../utils/UseDocumentTitle";
 
 export const Support = () => {
-    useDocumentTitle('Support');
+    useDocumentTitle('Werbung K100 | Support');
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -16,9 +16,9 @@ export const Support = () => {
 
         return (
           <form className="form" onSubmit={handleSubmit}>
-            <h2 className="H4">Contact Us</h2>
+            <h2 className="H4">Kontaktiere Uns</h2>
             <p className="description">
-              If you have any questions or concerns, please don't hesitate to reach out to us.
+             Wenn Sie Fragen oder Bedenken haben, zögern Sie bitte nicht, sich an uns zu wenden.
             </p>
             <label className="label" htmlFor="name">
               Name

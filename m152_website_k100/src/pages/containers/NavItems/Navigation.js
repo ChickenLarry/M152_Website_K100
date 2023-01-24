@@ -7,12 +7,9 @@ import { Home } from '../../components/Home/Home';
 import { Support } from '../../components/Support/Support';
 import { Funktion } from '../../components/Funktion/Funktion';
 import { Video } from '../../components/Video/Video';
-<<<<<<< HEAD
 import { About } from '../../components/About/About';
 import { Impressum } from '../../components/Impressum/Impressum';
 import logo from '../../../img/logo.jpg';
-=======
->>>>>>> parent of b10eb2b (almost done)
 
 class Navigation extends Component {
     render() {
@@ -39,6 +36,12 @@ class Navigation extends Component {
                                 <li><NavLink
                                     to="/support"
                                     activestyle={navStyle}>Support</NavLink></li>
+                                <li><NavLink 
+                                    to="/about"
+                                    activestyle={navStyle}>About</NavLink></li>
+                                <li><NavLink 
+                                    to="/impressum"
+                                    activestyle={navStyle}>Impressum</NavLink></li>
                             </ul>
                         </nav>
                     </header>
@@ -48,6 +51,8 @@ class Navigation extends Component {
                     <Route path="/funktion" element={<Funktion/>}/>
                     <Route path="/video" element={<Video/>}/>
                     <Route path="/support" element={<Support/>}/>
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/impressum" element={<Impressum/>}/>
                 </Routes>
                 <Outlet/>
                 <div className="Footer">

@@ -1,0 +1,26 @@
+.text {
+   position: relative;
+   top: 150px;
+   text-align: center;
+   color: white;
+   background-color: rgb(26, 26, 26);
+   padding: 30px;
+   width: 40%;
+   border: 1px solid transparent;
+   margin: 0 auto;
+   position: relative;
+   z-index: 1;
+   height: 1000px;
+   border: 10px solid;
+   border-image: linear-gradient(to right, #ffffff, #000000) 1;
+   font-size: 0.5cm;
+   height: 700px;
+ }
+
+.title {
+    text-align: center;
+    padding-bottom: 1.8rem;
+    font-size: 1.3cm;
+    color: white;
+    margin: auto;
+}

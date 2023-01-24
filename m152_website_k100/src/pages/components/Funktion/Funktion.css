@@ -11,18 +11,19 @@
    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
    .ImgLeft {
       position: relative;
       width: 600px;
-      top: 50px;
+      left: 80px;
+      top: 80px;
       font-size: 20px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
    }
 
    .ImgRight {
       position: relative;
-      top: 50%;
+      top: 80px;
       margin: auto; 
       width: 550px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -33,14 +34,14 @@
    .ImgLeft {
       position: relative;
       width: 650px;
-      left: 150px;
-      top: 13%;
+      left: 70px;
+      top: 90px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
    }
 
    .ImgRight {
       position: relative;
-      top: 50px;
+      top: 80px;
       width: 600px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
    }
@@ -51,14 +52,14 @@
    .ImgLeft {
       position: relative;
       width: 800px;
-      left: 150px;
-      top: 13%;
+      left: 70px;
+      top: 90px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
    }
 
    .ImgRight {
       position: relative;
-      top: 50px;
+      top: 100px;
       right: 150px;
       width: 750px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -70,7 +71,8 @@
    text-align: left;
    color: white;
    width: 800px;
-   opacity: 0.7;
+   opacity: 0.5;
+   top: 30%;
 }
 
 .TextRight {
@@ -80,18 +82,41 @@
    height: 500px;
    text-align: left;
    color: white;
-   opacity: 0.7;
+   opacity: 0.5;
+   top: 22%;
 }
 
-@media (min-width: 1650px) {
+@media (min-width: 1250px) {
    .TextLeft {
        position: relative;
        width: 800px;
        top: 30%;
-       left: 28%;
+       left: 10%;
        text-align: left;
-       font-size: 20px;
-       opacity: 0.6;
+       font-size: 15px;
+       opacity: 0.5;
+   }
+   
+   .TextRight {
+       position: relative;
+       top: 30%;
+       left: -2%;
+       margin-right: 3%;
+       text-align: left;
+       font-size: 15px;
+       opacity: 0.5;
+   }
+}
+
+@media (min-width: 1850px) {
+   .TextLeft {
+       position: relative;
+       width: 800px;
+       top: 40%;
+       left: 18%;
+       text-align: left;
+       font-size: 15px;
+       opacity: 0.5;
    }
    
    .TextRight {
@@ -100,8 +125,8 @@
        left: 0%;
        margin-right: 3%;
        text-align: left;
-       font-size: 20px;
-       opacity: 0.7;
+       font-size: 15px;
+       opacity: 0.5;
    }
 }
 
@@ -109,20 +134,21 @@
    .TextLeft {
       position: relative;
       width: 800px;
-      top: 30%;
+      top: 50%;
       left: 37%;
       text-align: left;
-      font-size: 20px;
-      opacity: 0.7;
+      font-size: 16px;
+      opacity: 0.5;
   }
   
   .TextRight {
       position: relative;
+      width: 800px;
       top: 30%;
       left: 0%;
       margin-right: 3%;
       text-align: left;
-      font-size: 20px;
-      opacity: 0.7;
+      font-size: 16px;
+      opacity: 0.5;
   }
 }

@@ -10,7 +10,7 @@ import corsair2 from '../../../img/corsair2.jpg';
 import useDocumentTitle from "../../../utils/UseDocumentTitle";
 
 export const Funktion = () => {
-    useDocumentTitle('Funktion');
+    useDocumentTitle('Werbung K100 | Funktion');
 
     return (
         <div>
@@ -21,13 +21,18 @@ export const Funktion = () => {
                     </Col>
                     <Col>
                         <div className="TextRight">
-                            <h4 className="H4">Fakten</h4>
-                            In den Leichtwasserreaktoren hat das Wasser zwei Aufgaben:
-                            Einerseits dient es als <strong>Kühlmittel</strong> und transportiert die
-                            Energie aus dem Reaktor zu den <strong>Dampfturbinen</strong>. Andererseits
-                            bremst es die bei der Kernspaltung freiwerdenden <strong>Neutronen </strong> 
-                            ab und wirkt so als sogenannter <strong>Moderator</strong>. Nur wenn sie
-                            gebremst werden, können die Neutronen weitere <strong>Kettenreaktion</strong> auslösen.
+                            <h4 className="H4">Beschreibung</h4>
+                                <p>
+                                    Die Tastatur ist in Schweizer Layout (QWERTZ) angelegt und kann einfach über eine USB-A Schnittstelle <br/>
+                                    mit deinem PC verbunden werden. 
+                                    <br/><br/>
+                                    Das schwarzes minimalistische Design der Tastatur wird von der RGB Beleuchtung der Tasten kontrastiert. 
+                                    <br/>
+                                    Diese Art von Beleuchtung kann Millionen verschiedener Lichtfarben erzeugen, für das richtige Ambiente <br/>
+                                    zu deinem Game. Ausserdem kannst du sechs Zusatztasten programmieren und mit Shortcuts hinterlegen. <br/>
+                                    Für dein next-level Gamingerlebnis sorgen die PBT-Double-Shot-Tastenkappen die für eine lange <br/>
+                                    Lebensdauer und maximalen Grip versprechen.<br/>
+                                </p>
                         </div>
                     </Col>
                 </Row>
@@ -35,12 +40,13 @@ export const Funktion = () => {
                     <Col>
                         <div className="TextLeft">
                         <h4 className="H4">Fakten</h4>
-                            Die Energie der Sonnenstrahlen, sogenannte Solarenergie,
-                            entsteht im <strong>Inneren</strong> der <strong>Sonne</strong> durch Kernfusion und gelangt
-                            als <strong>elektromagnetische Strahlung</strong> zur <strong>Erde</strong>. Hier kann die
-                            <strong> Strahlung</strong> für die Erzeugung von <strong>Strom</strong> und Wärme
-                            für <strong>Heisswasser</strong> genutzt werden. Da die meiste Energie tagsüber
-                            gebraucht wird, passen <strong>solare Erzeugung</strong> und Energiebedarf gut zusammen.
+                                    Die einzigartige optisch-mechanische Corsair K100 RGB Gaming-Tastatur kombiniert ein eindrucksvolles <br/>
+                                    Aluminiumdesign mit RGB-Beleuchtung einzelner Tasten und LightEdge mit <strong>44 Beleuchtungszonen</strong>. <br/>
+                                    Leistungsstarke Corsair Axon Hyper-Processing-Technologie ermöglicht unvergleichliche Funktionen wie <br/>
+                                    <strong>Polling mit 4.000 Hz</strong>. Corsair OPX RGB optisch-mechanische Tastenschalter <br/>
+                                    ausgelegt für <strong>150 Millionen Tastenbetätigungen</strong> ermöglichen mit einem <br/>
+                                    <strong>Betätigungsweg von nur 1,0 mm</strong> ultraschnelle Reaktionen und registrieren <br/>
+                                    dank AXON jeden Tastendruck bis zu vier Mal schneller als normale mechanische Gaming-Tastaturen.
                         </div>
                     </Col>  
                     <Col>

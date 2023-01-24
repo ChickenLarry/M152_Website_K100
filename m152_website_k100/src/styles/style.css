@@ -25,14 +25,9 @@
 
 .Background {
     height: 1300px;
-    width: 100vw;
     background: linear-gradient(to bottom, black, rgb(22, 22, 22),rgb(27, 27, 27),rgb(32, 32, 32), rgb(41, 41, 41),rgb(51, 51, 51), rgb(56, 56, 56), rgb(71, 71, 71), rgb(88, 88, 88), rgb(107, 107, 107), Gray, rgb(167, 167, 167), rgb(214, 214, 214),rgb(233, 233, 233));
-<<<<<<< HEAD
     padding: 0;
     width: 100vw;
-=======
-    z-index: 1;
->>>>>>> parent of b10eb2b (almost done)
 }
 
 .H2 {
@@ -44,10 +39,9 @@
 }
 
 .H4 {
-    position: relative;
     text-align: center;
-    padding-bottom: 1rem;
-    width: 10%;
+    padding-bottom: 1.8rem;
+    font-size: 0.8cm;
     color: white;
     margin: auto;
 }

@@ -9,7 +9,7 @@ import K100buy from '../../../img/k100buy.jpg';
 import useDocumentTitle from "../../../utils/UseDocumentTitle";
 
 export const Home = () => {
-    useDocumentTitle('Energie-Stromerzeugung | Home');
+    useDocumentTitle('Werbung K100 | Home');
 
     const handleSubmit = (event) => {
         event.preventDefault();
