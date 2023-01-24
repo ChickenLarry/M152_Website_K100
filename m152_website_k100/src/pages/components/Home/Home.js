@@ -26,7 +26,11 @@ export const Home = () => {
                     <Col>
                         <div className="TextRightBuy">
                             <h4 className='K100'>Corsair K100</h4>
-                            <p className="Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                            <p className="Text">
+                                K100 RGB Optisch-mechanische<br/>
+                                Gaming-Tastatur<br/>
+                                CORSAIR OPX Switch<br/>
+                            </p>
                             <button type="submit" className="Button">
                                 Kaufen
                             </button>

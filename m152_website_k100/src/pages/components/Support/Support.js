@@ -11,7 +11,7 @@ export const Support = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert('Thank you for your message! We will get back to you as soon as possible.');
+        alert('Vielen Dank für Ihre Nachricht! Wir werden uns so schnell wie möglich bei Ihnen melden.');
       };
 
         return (
@@ -28,7 +28,7 @@ export const Support = () => {
               type="text"
               id="name"
               name="name"
-              placeholder="Your name"
+              placeholder="Dein Name"
             />
             <label className="label" htmlFor="email">
               Email
@@ -38,19 +38,19 @@ export const Support = () => {
               type="email"
               id="email"
               name="email"
-              placeholder="Your email address"
+              placeholder="Deine Email addresse"
             />
             <label className="label" htmlFor="message">
-              Message
+              Nachricht
             </label>
             <textarea
               className="textarea"
               id="message"
               name="message"
-              placeholder="Your message"
+              placeholder="Deine Nachricht"
             />
             <button type="submit" className="button">
-              Submit
+              Bestätigen
             </button>
           </form>
         );
