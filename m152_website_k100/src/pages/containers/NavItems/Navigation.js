@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {NavLink, Route, Routes, Outlet} from "react-router-dom";
-import {Row} from 'react-bootstrap';
 
 import '../../../styles/Footer.css';
 import './Navigation.css';
@@ -8,6 +7,12 @@ import { Home } from '../../components/Home/Home';
 import { Support } from '../../components/Support/Support';
 import { Funktion } from '../../components/Funktion/Funktion';
 import { Video } from '../../components/Video/Video';
+<<<<<<< HEAD
+import { About } from '../../components/About/About';
+import { Impressum } from '../../components/Impressum/Impressum';
+import logo from '../../../img/logo.jpg';
+=======
+>>>>>>> parent of b10eb2b (almost done)
 
 class Navigation extends Component {
     render() {
@@ -45,11 +50,9 @@ class Navigation extends Component {
                     <Route path="/support" element={<Support/>}/>
                 </Routes>
                 <Outlet/>
-                <Row>
-                    <div className="Footer">
-                        <p>Example Text</p>
-                    </div>
-                </Row>
+                <div className="Footer">
+                    <img className="logoStyle" src={logo} alt={"logo"}/>
+                </div>
             </div>
         );
     }

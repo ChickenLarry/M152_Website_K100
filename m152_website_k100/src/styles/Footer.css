@@ -5,5 +5,15 @@
    width: 100vw;
    height: 150px;
    background-color: rgb(236, 236, 236);
+<<<<<<< HEAD
+   width: 100vw;
+ }
+ 
+ .logoStyle{
+    display: block;
+    margin: auto;
+    height: 100px;
+=======
    color: #fff;
+>>>>>>> parent of b10eb2b (almost done)
  }

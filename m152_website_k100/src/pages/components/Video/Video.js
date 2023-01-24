@@ -4,6 +4,10 @@ import {Col, Container, Row} from 'react-bootstrap';
 
 import './Video.css';
 import '../../../styles/style.css';
+<<<<<<< HEAD
+import video from '../../../video/m152_video_noel_schaerer.mp4'
+=======
+>>>>>>> parent of b10eb2b (almost done)
 
 
 import useDocumentTitle from "../../../utils/UseDocumentTitle"; 
